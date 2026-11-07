@@ -8,6 +8,24 @@ body {
     text-align: center;
 }
 
+nav {
+    background-color: #ededed;
+    padding: 1rem;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    block-size: 1%;
+    padding: 0.1rem;
+    display: block;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+}
+
 header {
     background-color: #ededed;
     padding: 1rem;
@@ -40,10 +58,13 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: #000;
+    padding: auto;
+    box-shadow: navajowhite;
 }
 
 p {
-    padding: 0.5rem;
+    padding: 0rem;
 }
 
 footer {
