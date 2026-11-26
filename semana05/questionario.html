@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/questionario.css">
+    <title>Questionário HTML & CSS</title>
+</head>
+
+<body>
+    <main>
+        <h1>Questionário de HTML e CSS</h1>
+        <form action="#">
+            <div class="item-form">
+                <label for="q1">1. O que significa a sigla CSS?</label>
+                <input type="text" name="q1" id="q1">
+            </div>
+            <div class="item-form">
+                <label for="q2">2. Como os atributos 'id' e 'class' são selecionados no CSS?</label>
+                <textarea name="q2" id="q2"></textarea>
+            </div>
+            <div class="item-form">
+                <label for="q3">3. Qual das opções abaixo é um comentário CSS válido?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Escolha uma opção...</option>
+                    <option value="opt1">// comentário</option>
+                    <option value="opt2">&lt;!-- comentário --&gt;</option>
+                    <option value="opt3">/* comentário*/</option>
+                </select>
+            </div>
+            <div class="item-form">
+                <label for="q4">4. Qual é a margem inferior dada por esta declaração?</label>
+                <code>margin: 10px 5px 15px;</code>
+                <input type="number" name="q4" id="q4">
+            </div>
+
+            <button type="submit">ENVIAR QUESTIONÁRIO</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
